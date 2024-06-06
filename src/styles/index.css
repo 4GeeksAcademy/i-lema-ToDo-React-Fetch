@@ -10,3 +10,63 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    opacity: 0.8;
+    color: rgb(236, 236, 236);
+}
+#lista{
+    border-radius: 0%;
+    width: 300px;
+}
+span {
+    color: grey;
+	height: 25px;
+	width: 0;
+	text-align: center;
+	opacity: 0;
+    float: inline-end;
+}
+.fa{
+    margin: 5px;
+}
+.fa:hover{
+    color: red;
+}
+li:hover span {
+	opacity: 1;
+	width: 40px;
+}
+#itemsLeft{
+    font-size: x-small;
+    color: grey;
+}
+#final1{
+    height: 3px;
+    width: 295px;
+    border: solid lightgray 0.5px;
+    border-top: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#final2{
+    height: 3px;
+    width: 290px;
+    border: solid lightgray 0.5px;
+    border-top: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
